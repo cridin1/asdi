@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="simulazione_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="simulazione" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="1000001fs"></ZoomEndTime>
+      <Cursor1Time time="1000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="112"></NameColumnWidth>
+      <ValueColumnWidth column_width="58"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="12" />
+   <wvobject fp_name="/simulazione/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/simulazione/clk2" type="logic">
+      <obj_property name="ElementShortName">clk2</obj_property>
+      <obj_property name="ObjectShortName">clk2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/simulazione/syn" type="logic">
+      <obj_property name="ElementShortName">syn</obj_property>
+      <obj_property name="ObjectShortName">syn</obj_property>
+   </wvobject>
+   <wvobject fp_name="/simulazione/ack" type="logic">
+      <obj_property name="ElementShortName">ack</obj_property>
+      <obj_property name="ObjectShortName">ack</obj_property>
+   </wvobject>
+   <wvobject fp_name="/simulazione/start" type="logic">
+      <obj_property name="ElementShortName">start</obj_property>
+      <obj_property name="ObjectShortName">start</obj_property>
+   </wvobject>
+   <wvobject fp_name="/simulazione/data1" type="array">
+      <obj_property name="ElementShortName">data1[0:15]</obj_property>
+      <obj_property name="ObjectShortName">data1[0:15]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/simulazione/sisB/sommatore1/op1" type="array">
+      <obj_property name="ElementShortName">op1[0:7]</obj_property>
+      <obj_property name="ObjectShortName">op1[0:7]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/simulazione/sisB/sommatore1/op2" type="array">
+      <obj_property name="ElementShortName">op2[0:7]</obj_property>
+      <obj_property name="ObjectShortName">op2[0:7]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/simulazione/sisB/sommatore1/output" type="array">
+      <obj_property name="ElementShortName">output[0:7]</obj_property>
+      <obj_property name="ObjectShortName">output[0:7]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/simulazione/sisB/control_unit1/segno" type="logic">
+      <obj_property name="ElementShortName">segno</obj_property>
+      <obj_property name="ObjectShortName">segno</obj_property>
+   </wvobject>
+   <wvobject fp_name="/simulazione/sisB/ab_op" type="logic">
+      <obj_property name="ElementShortName">ab_op</obj_property>
+      <obj_property name="ObjectShortName">ab_op</obj_property>
+   </wvobject>
+   <wvobject fp_name="/simulazione/sisB/ready" type="logic">
+      <obj_property name="ElementShortName">ready</obj_property>
+      <obj_property name="ObjectShortName">ready</obj_property>
+   </wvobject>
+</wave_config>

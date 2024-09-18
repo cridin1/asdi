@@ -1,0 +1,16 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../esame.srcs/sources_1/imports/eseperesame/ROM.vhd" \
+"../../../../esame.srcs/sources_1/new/buffer_dato.vhd" \
+"../../../../esame.srcs/sources_1/imports/eseperesame/contatore.vhd" \
+"../../../../esame.srcs/sources_1/new/control_unit.vhd" \
+"../../../../esame.srcs/sources_1/imports/eseperesame/interfacciaA.vhd" \
+"../../../../esame.srcs/sources_1/imports/eseperesame/interfacciaB.vhd" \
+"../../../../esame.srcs/sources_1/new/mux2_1.vhd" \
+"../../../../esame.srcs/sources_1/imports/eseperesame/sistemaA.vhd" \
+"../../../../esame.srcs/sources_1/imports/eseperesame/sistemaB.vhd" \
+"../../../../esame.srcs/sources_1/new/sommatore.vhd" \
+"../../../../esame.srcs/sources_1/imports/eseperesame/simulazione.vhd" \
+
+# Do not sort compile order
+nosort
